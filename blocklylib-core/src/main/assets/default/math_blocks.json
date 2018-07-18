@@ -1,0 +1,274 @@
+[
+  {
+    "type": "math_arithmetic",
+    "message0": "%1 %2 %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "A",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "OP",
+        "options": [
+          ["+", "ADD"],
+          ["-", "MINUS"],
+          ["×", "MULTIPLY"],
+          ["÷", "DIVIDE"]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "B",
+        "check": "Number"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 105,
+    "helpUrl": "https://en.wikipedia.org/wiki/Arithmetic"
+  },
+
+  {
+    "type": "math_random",
+    "message0": "%1부터 %2사이의 난수",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "FROM",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "TO",
+        "check": "Number"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 105,
+    "tooltip": "Return a random integer between the two specified limits, inclusive.",
+    "helpUrl": "https://en.wikipedia.org/wiki/Random_number_generation"
+  },
+
+  {
+    "type": "math_compare",
+    "message0": "%1 %2 %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "A"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "OP",
+        "options": [
+          [
+            "=",
+            "EQ"
+          ],
+          [
+            "\u2260",
+            "NEQ"
+          ],
+          [
+            ">",
+            "GT"
+          ],
+          [
+            "<",
+            "LT"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "B"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Boolean",
+    "colour": 105,
+    "tooltip": "",
+    "helpUrl": "https://en.wikipedia.org/wiki/Equality_(mathematics)"
+  },
+  {
+    "type": "math_operation",
+    "message0": "%1 %2 %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "A",
+        "check": "Boolean"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "OP",
+        "options": [
+          [
+            "그리고",
+            "AND"
+          ],
+          [
+            "또는",
+            "OR"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "B",
+        "check": "Boolean"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Boolean",
+    "colour": 105,
+    "tooltip": "",
+    "helpUrl": "https://github.com/google/blockly/wiki/Logic#logical-operations"
+  },
+
+  {
+    "type": "math_negate",
+    "message0": "%1 아니다",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "BOOL",
+        "check": "Boolean"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Boolean",
+    "colour": 105,
+    "tooltip": "Returns true if the input is false. Returns false if the input is true.",
+    "helpUrl": "https://github.com/google/blockly/wiki/Logic#not"
+  },
+
+  {
+    "type": "math_modulo",
+    "message0": "%1 나누기 %2의 나머지",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "DIVIDEND",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "DIVISOR",
+        "check": "Number"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 105,
+    "tooltip": "Return the remainder from dividing the two numbers.",
+    "helpUrl": "https://en.wikipedia.org/wiki/Modulo_operation"
+  },
+
+  {
+    "type": "math_round",
+    "message0": "%1 %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "NUM",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "OP",
+        "options": [
+          ["반올림", "ROUND"],
+          ["올림", "ROUNDUP"],
+          ["내림", "ROUNDDOWN"]
+        ]
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 105,
+    "tooltip": "Round a number up or down.",
+    "helpUrl": "https://en.wikipedia.org/wiki/Rounding"
+  },
+
+  {
+    "type": "math_formula",
+    "message0": "%1 ( %2 )",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "OP",
+        "options": [
+          ["절대값", "ABS"],
+          ["바닥함수", "FLR"],
+          ["천장함수", "CEL"],
+          ["제곱근", "ROOT"],
+          ["sin", "SIN"],
+          ["cos", "COS"],
+          ["tan", "TAN"],
+          ["asin", "ASIN"],
+          ["acos", "ACOS"],
+          ["atan", "ATAN"],
+          ["ln", "LN"],
+          ["log10", "LOG10"],
+          ["e^", "EXP"],
+          ["10^", "POW10"]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "NUM",
+        "check": "Number"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 105,
+    "helpUrl": "https://en.wikipedia.org/wiki/Square_root"
+  },
+
+  {
+    "type": "math_number",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_number",
+        "name": "NUM",
+        "text": "0",
+        "check": "Number"
+      }
+    ],
+    "colour": 230,
+    "output": "Number",
+    "tooltip": "A number.",
+    "helpUrl": "https://en.wikipedia.org/wiki/Number"
+  },
+
+  {
+    "type": "logic_boolean",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "BOOL",
+        "options": [
+          [
+            "true",
+            "TRUE"
+          ],
+          [
+            "false",
+            "FALSE"
+          ]
+        ]
+      }
+    ],
+    "output": "Boolean",
+    "colour": 230,
+    "tooltip": "Returns either true or false.",
+    "helpUrl": "https://github.com/google/blockly/wiki/Logic#values"
+  }
+]

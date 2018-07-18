@@ -1,0 +1,432 @@
+[
+  {
+    "type": "music_turnoff",
+    "message0": "모든 소리 끄기",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 300,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "music_play_instrument",
+    "message0": "%1번 타악기를 %2 %3박자로 연주하기",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "NAME",
+        "options": [
+          [
+            "(1)스네어 드럼",
+            "option1"
+          ],
+          [
+            "(2)베이스 드럼",
+            "option2"
+          ],
+          [
+            "(3)사이드 스틱",
+            "option3"
+          ],
+          [
+            "(4)크래시 심벌",
+            "option4"
+          ],
+          [
+            "(5)하이-햇 열기",
+            "option5"
+          ],
+          [
+            "(6)닫힌 하이-햇",
+            "option6"
+          ],
+          [
+            "(7)탬버린",
+            "option7"
+          ],
+          [
+            "(8)박수",
+            "option8"
+          ],
+          [
+            "(9)클라베스",
+            "option9"
+          ],
+          [
+            "(10)목판",
+            "option10"
+          ],
+          [
+            "(11)카우벨",
+            "option11"
+          ],
+          [
+            "(12)트라이앵글",
+            "option12"
+          ],
+          [
+            "(13)봉고",
+            "option13"
+          ],
+          [
+            "(14)콩가드럼",
+            "option14"
+          ],
+          [
+            "(15)카바사",
+            "option15"
+          ],
+          [
+            "(16)귀로우",
+            "option16"
+          ],
+          [
+            "(17)비브라슬랩",
+            "option17"
+          ],
+          [
+            "(18)퀴가 열기",
+            "option18"
+          ]
+        ]
+      },
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 300,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "music_play_sound",
+    "message0": "%1번 음을 %2 %3박자로 연주하기",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "NAME",
+        "options": [
+          [
+            "48",
+            "option1"
+          ],
+          [
+            "49",
+            "option2"
+          ],
+          [
+            "50",
+            "option3"
+          ],
+          [
+            "51",
+            "option4"
+          ],
+          [
+            "52",
+            "option5"
+          ],
+          [
+            "53",
+            "option6"
+          ],
+          [
+            "54",
+            "option7"
+          ],
+          [
+            "55",
+            "option8"
+          ],
+          [
+            "56",
+            "option9"
+          ],
+          [
+            "57",
+            "option10"
+          ],
+          [
+            "58",
+            "option11"
+          ],
+          [
+            "59",
+            "option12"
+          ],
+          [
+            "60",
+            "option13"
+          ],
+          [
+            "61",
+            "option14"
+          ],
+          [
+            "62",
+            "option15"
+          ],
+          [
+            "63",
+            "option16"
+          ],
+          [
+            "64",
+            "option17"
+          ],
+          [
+            "65",
+            "option18"
+          ],
+          [
+            "66",
+            "option19"
+          ],
+          [
+            "67",
+            "option20"
+          ],
+          [
+            "68",
+            "option21"
+          ],
+          [
+            "69",
+            "option22"
+          ],
+          [
+            "70",
+            "option23"
+          ],
+          [
+            "71",
+            "option24"
+          ],
+          [
+            "72",
+            "option25"
+          ]
+        ]
+      },
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 300,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "music_sleep",
+    "message0": "%1박자 쉬기",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 300,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "music_choice_instrument",
+    "message0": "%1번 악기로 정하기",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "NAME",
+        "options": [
+          [
+            "(1)피아노",
+            "option1"
+          ],
+          [
+            "(2)전자 피아노",
+            "option2"
+          ],
+          [
+            "(3)오르간",
+            "option3"
+          ],
+          [
+            "(4)기타",
+            "option4"
+          ],
+          [
+            "(5)전자 기타",
+            "option5"
+          ],
+          [
+            "(6)베이스",
+            "option6"
+          ],
+          [
+            "(7)피치카토",
+            "option7"
+          ],
+          [
+            "(8)첼로",
+            "option8"
+          ],
+          [
+            "(9)트럼본",
+            "option9"
+          ],
+          [
+            "(10)클라리넷",
+            "option10"
+          ],
+          [
+            "(11)색소폰",
+            "option11"
+          ],
+          [
+            "(12)플룻",
+            "option12"
+          ],
+          [
+            "(13)나무 플루트",
+            "option13"
+          ],
+          [
+            "(14)바순",
+            "option14"
+          ],
+          [
+            "(15)합창단",
+            "option15"
+          ],
+          [
+            "(16)비브라폰",
+            "option16"
+          ],
+          [
+            "(17)뮤직 박스",
+            "option17"
+          ],
+          [
+            "(18)스틸 드럼",
+            "option18"
+          ],
+          [
+            "(19)마림바",
+            "option19"
+          ]
+        ]
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 300,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "music_change_sound",
+    "message0": "음량을 %1만큼 바꾸기",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 300,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "music_choice_sound",
+    "message0": "음량을 %1％ (으)로 정하기",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 300,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "music_change_tempo",
+  "message0": "빠르기를 %1만큼 바꾸기",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 300,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "music_choice_tempo",
+    "message0": "빠르기를 %1BPM 으로 정하기",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 300,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "music_sound",
+    "message0": "음량",
+    "output": null,
+    "colour": 300,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "music_tempo",
+    "message0": "빠르기",
+    "output": null,
+    "colour": 300,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  }
+]

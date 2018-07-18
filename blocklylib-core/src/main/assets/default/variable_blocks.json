@@ -1,0 +1,347 @@
+[
+  {
+    "type": "variables_get",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_variable",
+        "name": "VAR",
+        "variable": "item"
+      }
+    ],
+    "output": null,
+    "colour": 30,
+    "tooltip": "Returns the value of this variable.",
+    "helpUrl": "https://github.com/google/blockly/wiki/Variables#get"
+  },
+
+  {
+    "type": "variables_set",
+    "message0": "%1을(를) %2로 정하기",
+    "args0": [
+      {
+        "type": "field_variable",
+        "name": "VAR",
+        "variable": "item"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "inputsInline": true,
+    "colour": 30,
+    "tooltip": "Sets this variable to be equal to the input.",
+    "helpUrl": "https://github.com/google/blockly/wiki/Variables#set"
+  },
+
+  {
+    "type": "variables_change",
+    "message0": "%1을(를) %2로 변경하기",
+    "args0": [
+      {
+        "type": "field_variable",
+        "name": "VAR",
+        "variable": "item"
+      },
+      {
+        "type": "input_value",
+        "name": "DELTA",
+        "check": "Number"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "inputsInline": true,
+    "colour": 30,
+    "tooltip": "",
+    "helpUrl": "https://en.wikipedia.org/wiki/Programming_idiom#Incrementing_a_counter"
+  },
+
+  {
+    "type": "list_get",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_list",
+        "name": "VAR"
+      }
+    ],
+    "output": null,
+    "colour": 30,
+    "tooltip": "Returns the value of this variable.",
+    "helpUrl": "https://github.com/google/blockly/wiki/Variables#get"
+  },
+
+  {
+    "type": "list_add",
+    "message0": "%1항목을 %2에 추가하기",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "TEXT",
+        "check": "String"
+      },
+      {
+        "type": "field_list",
+        "name": "VAR"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 30,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+
+  {
+    "type": "list_add_num",
+    "message0": "%1을(를) %2번째 %3에 넣기",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "TEXT",
+        "check": "String"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "NAME",
+        "options": [
+          [
+            "1",
+            "option1"
+          ],
+          [
+            "마지막",
+            "option2"
+          ],
+          [
+            "랜덤",
+            "option3"
+          ]
+        ]
+      },
+      {
+        "type": "field_list",
+        "name": "VAR"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 30,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+
+  {
+    "type": "list_delete_num",
+    "message0": "%1번째 항목을 %2에서 삭제하기",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "NAME",
+        "options": [
+          [
+            "1",
+            "option1"
+          ],
+          [
+            "마지막",
+            "option2"
+          ],
+          [
+            "모두",
+            "option3"
+          ]
+        ]
+      },
+      {
+        "type": "field_list",
+        "name": "VAR"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 30,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+
+  {
+    "type": "list_change_num",
+    "message0": "%1번째 %2의 항목을 %3(으)로 바꾸기",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "NAME",
+        "options": [
+          [
+            "1",
+            "option1"
+          ],
+          [
+            "마지막",
+            "option2"
+          ],
+          [
+            "랜덤",
+            "option3"
+          ]
+        ]
+      },
+      {
+        "type": "field_list",
+        "name": "VAR"
+      },
+      {
+        "type": "input_value",
+        "name": "TEXT",
+        "check": "String"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 30,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+
+  {
+    "type": "list_item",
+    "message0": "%1번째 %2항목",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "NAME",
+        "options": [
+          [
+            "1",
+            "option1"
+          ],
+          [
+            "마지막",
+            "option2"
+          ],
+          [
+            "랜덤",
+            "option3"
+          ]
+        ]
+      },
+      {
+        "type": "field_list",
+        "name": "VAR"
+      }
+    ],
+    "output": null,
+    "colour": 30,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "list_length",
+    "message0": "%1리스트의 항목 수",
+    "args0": [
+      {
+        "type": "field_list",
+        "name": "VAR"
+      }
+    ],
+    "output": null,
+    "colour": 30,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "list_show",
+    "message0": "%1리스트 보이기",
+    "args0": [
+      {
+        "type": "field_list",
+        "name": "VAR"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 30,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+
+  {
+    "type": "list_hide",
+    "message0": "%1리스트 숨기기",
+    "args0": [
+      {
+        "type": "field_list",
+        "name": "VAR"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 30,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+
+  {
+    "type": "list_include",
+    "message0": "%1리스트에 %2포함되었는가",
+    "args0": [
+      {
+        "type": "field_list",
+        "name": "VAR"
+      },
+      {
+        "type": "input_value",
+        "name": "TEXT",
+        "check": "String"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Boolean",
+    "colour": 30,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+
+  {
+    "type": "text",
+    "message0": "%1 %2 %3",
+    "args0": [
+      {
+        "type": "field_image",
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAQAAAAqJXdxAAAAn0lEQVQI1z3OMa5BURSF4f/cQhAKjUQhuQmFNwGJEUi0RKN5rU7FHKhpjEH3TEMtkdBSCY1EIv8r7nFX9e29V7EBAOvu7RPjwmWGH/VuF8CyN9/OAdvqIXYLvtRaNjx9mMTDyo+NjAN1HNcl9ZQ5oQMM3dgDUqDo1l8DzvwmtZN7mnD+PkmLa+4mhrxVA9fRowBWmVBhFy5gYEjKMfz9AylsaRRgGzvZAAAAAElFTkSuQmCC",
+        "width": 12,
+        "height": 12,
+        "alt": "\u201C"
+      },
+      {
+        "type": "field_input",
+        "name": "TEXT",
+        "text": ""
+      },
+      {
+        "type": "field_image",
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAQAAAAqJXdxAAAAqUlEQVQI1z3KvUpCcRiA8ef9E4JNHhI0aFEacm1o0BsI0Slx8wa8gLauoDnoBhq7DcfWhggONDmJJgqCPA7neJ7p934EOOKOnM8Q7PDElo/4x4lFb2DmuUjcUzS3URnGib9qaPNbuXvBO3sGPHJDRG6fGVdMSeWDP2q99FQdFrz26Gu5Tq7dFMzUvbXy8KXeAj57cOklgA+u1B5AoslLtGIHQMaCVnwDnADZIFIrXsoXrgAAAABJRU5ErkJggg==",
+        "width": 12,
+        "height": 12,
+        "alt": "\u201D"
+      }
+    ],
+    "output": "String",
+    "colour": 230,
+    "tooltip": "A letter, word, or line of text.",
+    "helpUrl": "https://en.wikipedia.org/wiki/String_(computer_science)"
+  }
+]

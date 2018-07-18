@@ -1,0 +1,360 @@
+[
+  {
+    "type": "robot_go",
+    "message0": "앞으로 %1 블록",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "NUM",
+        "check": "Number"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 270,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_turn_left",
+    "message0": "왼쪽으로 돌기",
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 270,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_turn_right",
+    "message0": "오른쪽으로 돌기",
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 270,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "robot_turn_back",
+    "message0": "뒤로 돌기",
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 270,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_speed_front",
+    "message0": "앞으로 속도: %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_speed_front_both",
+    "message0": "앞으로 속도 오른쪽: %1 %2 왼쪽: %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE1"
+      },
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE2"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_speed_back",
+    "message0": "뒤로 속도: %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_speed_back_both",
+    "message0": "뒤로 속도 오른쪽: %1 %2 왼쪽: %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE1"
+      },
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE2"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_move_speed_left",
+    "message0": "move left speed %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_move_speed_right",
+    "message0": "move right speed %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_motor_left",
+    "message0": "왼쪽 모터 %1 %2 속도 %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "NAME",
+        "options": [
+          [
+            "앞으로",
+            "option1"
+          ],
+          [
+            "뒤로",
+            "option2"
+          ]
+        ]
+      },
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_motor_right",
+    "message0": "오른쪽 모터 %1 %2 속도 %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "NAME",
+        "options": [
+          [
+            "앞으로",
+            "option1"
+          ],
+          [
+            "뒤로",
+            "option2"
+          ]
+        ]
+      },
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_stop",
+    "message0": "정지",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_set_colour",
+    "message0": "카미봇 %1 색으로 설정",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "COLOUR",
+        "options": [
+          [
+            "빨간",
+            "RED"
+          ],
+          [
+            "분홍",
+            "PINK"
+          ],
+          [
+            "파란",
+            "BLUE"
+          ],
+          [
+            "하늘",
+            "SKYBLUE"
+          ],
+          [
+            "초록",
+            "GREEN"
+          ],
+          [
+            "노랑",
+            "YELLOW"
+          ]
+        ]
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_set_survmotor",
+    "message0": "서보모터 %1˚ 로 설정",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_sensor_ultrasonic",
+    "message0": "초음파 센서",
+    "output": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_sensor_infrared",
+    "message0": "적외선 센서",
+    "output": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+
+  {
+    "type": "robot_sensor_infrared_num",
+    "message0": "%1 적외선 센서",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "NAME",
+        "options": [
+          [
+            "1번",
+            "option1"
+          ],
+          [
+            "2번",
+            "option2"
+          ],
+          [
+            "3번",
+            "option3"
+          ],
+          [
+            "4번",
+            "option4"
+          ],
+          [
+            "5번",
+            "option5"
+          ]
+        ]
+      }
+    ],
+    "output": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com"
+  }
+]

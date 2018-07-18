@@ -1,0 +1,19 @@
+[
+  {
+    "type": "event_start",
+    "message0": "%1 클릭했을 때",
+    "args0": [
+      {
+        "type": "field_image",
+        "src": "#",
+        "width": "#",
+        "height" : "#",
+        "alt": "*"
+      }
+    ],
+    "nextStatement": null,
+    "colour": 45,
+    "tooltip": "",
+    "helpUrl": ""
+  }
+]
